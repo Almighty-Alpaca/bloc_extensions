@@ -1,0 +1,46 @@
+# Inspired by https://github.com/rrousselGit/riverpod/blob/master/.github/workflows/build.yml
+
+name: Build
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 10 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        channel:
+          - beta
+          - stable
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: subosito/flutter-action@v1
+        with:
+          channel: ${{ matrix.channel }}
+
+      - name: Add pub cache bin to PATH
+        run: echo "$HOME/.pub-cache/bin" >> $GITHUB_PATH
+
+      - name: Add pub cache to PATH
+        run: echo "PUB_CACHE="$HOME/.pub-cache"" >> $GITHUB_ENV
+
+      - run: dart pub global activate melos
+
+      - name: Install dependencies
+        run: melos bootstrap
+
+      - name: Check format
+        run: melos exec -- "flutter format --set-exit-if-changed ."
+
+      - name: Analyze
+        run: melos exec -- "flutter analyze"
+
+      - name: Run tests
+        run: melos run test

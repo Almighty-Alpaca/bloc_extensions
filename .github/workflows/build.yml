@@ -31,10 +31,17 @@ jobs:
       - name: Add pub cache to PATH
         run: echo "PUB_CACHE="$HOME/.pub-cache"" >> $GITHUB_ENV
 
-      - run: dart pub global activate melos
+      - name: Install melos
+        run: dart pub global activate melos
+
+      - name: Install dependency_validator
+        run: dart pub global activate dependency_validator
 
       - name: Install dependencies
         run: melos bootstrap
+
+      - name: Validate dependencies
+        run: melos run dependency_validator
 
       - name: Check format
         run: melos exec -- "flutter format --set-exit-if-changed ."

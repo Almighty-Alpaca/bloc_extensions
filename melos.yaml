@@ -34,3 +34,7 @@ scripts:
     select-package:
       flutter: true
       dir-exists: test
+
+  dependency_validator:
+    run: melos exec -c 1 --depends-on="dependency_validator"  -- dart pub run dependency_validator:dependency_validator
+    description: Run dependency_validator on all packages.

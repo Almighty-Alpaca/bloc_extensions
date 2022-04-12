@@ -1,0 +1,26 @@
+name: flutter_bloc_hooks
+description: Flutter hooks for use with bloc.
+version: 0.0.0
+homepage: https://github.com/Almighty-Alpaca/bloc_extensions/packages/flutter_bloc_hooks
+repository: https://github.com/Almighty-Alpaca/bloc_extensions
+issue_tracker: https://github.com/Almighty-Alpaca/bloc_extensions/issues
+documentation: https://github.com/Almighty-Alpaca/bloc_extensions/packages/flutter_bloc_hooks/README.md
+publish_to: none
+
+environment:
+  flutter: ^2.10.4
+  sdk: ^2.16.2
+
+dependencies:
+  bloc: ^8.0.3
+  flutter:
+    sdk: flutter
+  flutter_hooks: ^0.18.3
+  provider: ^6.0.2
+
+dev_dependencies:
+  dependency_validator: ^3.2.0
+  flutter_bloc: ^8.0.1
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^2.4.0

@@ -8,7 +8,7 @@ documentation: https://github.com/Almighty-Alpaca/bloc_extensions/packages/actio
 publish_to: none
 
 environment:
-  sdk: ^2.16.2
+  sdk: ">=2.16.2 <3.0.0"
 
 dependencies:
   action_bloc: ^1.0.0

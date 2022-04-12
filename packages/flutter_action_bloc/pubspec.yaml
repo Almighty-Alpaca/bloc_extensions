@@ -8,8 +8,8 @@ documentation: https://github.com/Almighty-Alpaca/bloc_extensions/packages/flutt
 publish_to: none
 
 environment:
-  flutter: ^2.10.4
-  sdk: ^2.16.2
+  flutter: ">=2.10.4"
+  sdk: ">=2.16.2 <3.0.0"
 
 dependencies:
   action_bloc: ^1.0.0

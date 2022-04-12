@@ -30,6 +30,7 @@
 build/
 pubspec.lock
 doc/api/
+coverage/
 
 # Web related
 lib/generated_plugin_registrant.dart

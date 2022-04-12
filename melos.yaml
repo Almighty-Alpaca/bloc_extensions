@@ -1,0 +1,11 @@
+name: bloc_extensions
+repository: https://github.com/Almighty-Alpaca/bloc_extensions
+
+packages:
+  - packages/**
+
+command:
+  version:
+    branch: master
+    linkToCommits: true
+    workspaceChangelog: true

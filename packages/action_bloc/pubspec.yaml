@@ -1,11 +1,10 @@
 name: action_bloc
 description: Extends bloc with a second stream for actions (one time events that aren't part of the state).
-version: 0.0.0
+version: 0.0.1
 homepage: https://github.com/Almighty-Alpaca/bloc_extensions/packages/action_bloc
 repository: https://github.com/Almighty-Alpaca/bloc_extensions
 issue_tracker: https://github.com/Almighty-Alpaca/bloc_extensions/issues
 documentation: https://github.com/Almighty-Alpaca/bloc_extensions/packages/action_bloc/README.md
-publish_to: none
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
@@ -15,6 +14,6 @@ dependencies:
   meta: ^1.7.0
 
 dev_dependencies:
-  action_bloc_test: ^1.0.0
+  action_bloc_test: ^0.0.1
   dependency_validator: ^3.2.0
   very_good_analysis: ^2.4.0

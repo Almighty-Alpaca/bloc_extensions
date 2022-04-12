@@ -1,17 +1,16 @@
 name: action_bloc_test
 description: Package to make creating tests for action_bloc easy.
-version: 0.0.0
+version: 0.0.1
 homepage: https://github.com/Almighty-Alpaca/bloc_extensions/packages/action_bloc_test
 repository: https://github.com/Almighty-Alpaca/bloc_extensions
 issue_tracker: https://github.com/Almighty-Alpaca/bloc_extensions/issues
 documentation: https://github.com/Almighty-Alpaca/bloc_extensions/packages/action_bloc_test/README.md
-publish_to: none
 
 environment:
   sdk: ">=2.16.2 <3.0.0"
 
 dependencies:
-  action_bloc: ^1.0.0
+  action_bloc: ^0.0.1
   bloc_test: ^9.0.3
   diff_match_patch: ^0.4.1
   meta: ^1.7.0

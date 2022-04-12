@@ -1,21 +1,20 @@
 name: flutter_action_bloc_hooks
 description: Flutter hooks for use with action_bloc.
-version: 0.0.0
+version: 0.0.1
 homepage: https://github.com/Almighty-Alpaca/bloc_extensions/packages/flutter_action_bloc_hooks
 repository: https://github.com/Almighty-Alpaca/bloc_extensions
 issue_tracker: https://github.com/Almighty-Alpaca/bloc_extensions/issues
 documentation: https://github.com/Almighty-Alpaca/bloc_extensions/packages/flutter_action_bloc_hooks/README.md
-publish_to: none
 
 environment:
   flutter: ">=2.10.4"
   sdk: ">=2.16.2 <3.0.0"
 
 dependencies:
-  action_bloc: ^1.0.0
+  action_bloc: ^0.0.1
   flutter:
     sdk: flutter
-  flutter_bloc_hooks: ^1.0.0
+  flutter_bloc_hooks: ^0.0.1
   flutter_hooks: ^0.18.3
 
 dev_dependencies:

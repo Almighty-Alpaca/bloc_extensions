@@ -40,8 +40,8 @@ jobs:
       - name: Install dependencies
         run: melos bootstrap
 
-      - name: Validate dependencies
-        run: melos run dependency_validator
+      # - name: Validate dependencies
+      #   run: melos run dependency_validator
 
       - name: Check format
         run: melos exec -- "flutter format --set-exit-if-changed ."

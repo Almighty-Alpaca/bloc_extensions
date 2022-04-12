@@ -7,6 +7,8 @@ packages:
   - packages/**
 
 command:
+  bootstrap:
+    usePubspecOverrides: true
   version:
     branch: master
     linkToCommits: true
@@ -15,25 +17,25 @@ command:
 scripts:
   analyze:
     run: melos exec -c 1 -- flutter analyze .
-    description: |
-      Run `dart analyze` in all packages.
+    description: Run `dart analyze` in all packages.
 
   test:
-    run: melos run test:dart --no-select && melos run test:flutter --no-select
+#    run: melos run test:dart --no-select && melos run test:flutter --no-select
+    run: melos run test:flutter --no-select
     description: Run all Dart & Flutter tests in this project.
 
-  test:dart:
-    run: melos exec -c 1 --fail-fast -- dart test --coverage="coverage" && melos exec -c 1 --fail-fast -- dart run coverage:format_coverage --packages=.packages --report-on=lib --lcov -o ./coverage/lcov.info -i ./coverage
-    description: Run Dart tests for a specific package in this project.
-    select-package:
-      flutter: false
-      dir-exists: test
+#  test:dart:
+#    run: melos exec -c 1 --fail-fast -- dart test --no-pub --coverage="coverage" && melos exec -c 1 --fail-fast -- dart run coverage:format_coverage --packages=.packages --report-on=lib --lcov -o ./coverage/lcov.info -i ./coverage
+#    description: Run Dart tests for a specific package in this project.
+#    select-package:
+#      flutter: false
+#      dir-exists: test
 
   test:flutter:
-    run: melos exec -c 1 --fail-fast -- "flutter test --coverage"
+    run: melos exec -c 1 --fail-fast -- "flutter test --no-pub --coverage"
     description: Run Flutter tests for a specific package in this project.
     select-package:
-      flutter: true
+#      flutter: true
       dir-exists: test
 
   dependency_validator:

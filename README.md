@@ -1,8 +1,13 @@
 # Bloc Extensions
 
+[![License: MIT][license:mit:shield]][license:mit:link]
+[![GitHub Workflow Status][package:bloc_extensions:shield]][package:bloc_extensions:github]
+[![melos][package:melos:shield]](#contributing)
+[![style: very good analysis][package:very_good_analysis:shield]][package:very_good_analysis:pub]
+
 ---
 
-A collections of packages providing additional functionality for working with [bloc](https://github.com/felangel/bloc).
+A collections of packages providing additional functionality for working with [bloc][package:bloc:pub].
 
 ## Index
 
@@ -13,13 +18,13 @@ A collections of packages providing additional functionality for working with [b
 
 ## Packages
 
-| **Package**                                                    | Version                                                                   |
-|----------------------------------------------------------------|---------------------------------------------------------------------------|
-| [action_bloc][package_action_bloc]                             | [![pub][shield_action_bloc]][pub_action_bloc]                             |
-| [action_bloc_test][package_action_bloc_test]                   | [![pub][shield_action_bloc_test]][pub_action_bloc_test]                   |
-| [flutter_action_bloc][package_flutter_action_bloc]             | [![pub][shield_flutter_action_bloc]][pub_flutter_action_bloc]             |
-| [flutter_action_bloc_hooks][package_flutter_action_bloc_hooks] | [![pub][shield_flutter_action_bloc_hooks]][pub_flutter_action_bloc_hooks] |
-| [flutter_bloc_hooks][package_flutter_bloc_hooks]               | [![pub][shield_flutter_bloc_hooks]][pub_flutter_bloc_hooks]               |
+| **Package**                                                           | Version                                                                                   |
+|-----------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| [action_bloc][package:action_bloc:source]                             | [![pub][package:action_bloc:shield]][package:action_bloc:pub]                             |
+| [action_bloc_test][package:action_bloc_test:source]                   | [![pub][package:action_bloc_test:shield]][package:action_bloc_test:pub]                   |
+| [flutter_action_bloc][package:flutter_action_bloc:source]             | [![pub][package:flutter_action_bloc:shield]][package:flutter_action_bloc:pub]             |
+| [flutter_action_bloc_hooks][package:flutter_action_bloc_hooks:source] | [![pub][package:flutter_action_bloc_hooks:shield]][package:flutter_action_bloc_hooks:pub] |
+| [flutter_bloc_hooks][package:flutter_bloc_hooks:source]               | [![pub][package:flutter_bloc_hooks:shield]][package:flutter_bloc_hooks:pub]               |
 
 ## Bloc Hooks
 
@@ -85,7 +90,7 @@ class CounterText extends HookWidget {
 
 ## Contributing
 
-This repository uses [melos][pub_melos] for managing all packages. To get started first install melos and then run it's `bootstrap` command.
+This repository uses [melos][package:melos:pub] for managing all packages. To get started first install melos and then run its `bootstrap` command.
 
 ```shell
 dart pub global activate melos
@@ -95,40 +100,29 @@ melos bootstrap
 
 More information about melos can be found on <https://melos.invertase.dev>. All available scripts can be seen in [`melos.yaml`](melos.yaml).
 
-<!-- package paths -->
+<!-- links -->
 
-[package_action_bloc]:               packages/action_bloc
-
-[package_action_bloc_test]:          packages/action_bloc_test
-
-[package_flutter_action_bloc]:       packages/flutter_action_bloc
-
-[package_flutter_action_bloc_hooks]: packages/flutter_action_bloc_hooks
-
-[package_flutter_bloc_hooks]:        packages/flutter_bloc_hooks
-
-<!-- shields -->
-
-[shield_action_bloc]:               https://img.shields.io/pub/v/action_bloc.svg?label=action_bloc
-
-[shield_action_bloc_test]:          https://img.shields.io/pub/v/action_bloc_test.svg?label=action_bloc_test
-
-[shield_flutter_action_bloc]:       https://img.shields.io/pub/v/flutter_action_bloc.svg?label=flutter_action_bloc
-
-[shield_flutter_action_bloc_hooks]: https://img.shields.io/pub/v/flutter_action_bloc_hooks.svg?label=flutter_action_bloc_hooks
-
-[shield_flutter_bloc_hooks]:        https://img.shields.io/pub/v/flutter_bloc_hooks.svg?label=flutter_bloc_hooks
-
-<!-- pub.dev links -->
-
-[pub_action_bloc]:               https://pub.dev/packages/action_bloc
-
-[pub_action_bloc_test]:          https://pub.dev/packages/action_bloc_test
-
-[pub_flutter_action_bloc]:       https://pub.dev/packages/flutter_action_bloc
-
-[pub_flutter_action_bloc_hooks]: https://pub.dev/packages/flutter_action_bloc_hooks
-
-[pub_flutter_bloc_hooks]:        https://pub.dev/packages/flutter_bloc_hooks
-
-[pub_melos]: https://pub.dev/packages/melos
+[license:mit:link]:                         https://choosealicense.com/licenses/mit/
+[license:mit:shield]:                       https://img.shields.io/badge/license-MIT-purple?style=flat-square
+[package:action_bloc:pub]:                  https://pub.dev/packages/action_bloc
+[package:action_bloc:shield]:               https://img.shields.io/pub/v/action_bloc.svg?label=action_bloc&style=flat-square
+[package:action_bloc:source]:               ./packages/action_bloc
+[package:action_bloc_test:pub]:             https://pub.dev/packages/action_bloc_test
+[package:action_bloc_test:shield]:          https://img.shields.io/pub/v/action_bloc_test.svg?label=action_bloc_test&style=flat-square
+[package:action_bloc_test:source]:          ./packages/action_bloc_test
+[package:bloc:pub]:                         https://pub.dev/packages/bloc
+[package:bloc_extensions:github]:           https://github.com/Almighty-Alpaca/bloc_extensions
+[package:bloc_extensions:shield]:           https://img.shields.io/github/workflow/status/Almighty-Alpaca/bloc_extensions/Build?style=flat-square
+[package:flutter_action_bloc:pub]:          https://pub.dev/packages/flutter_action_bloc
+[package:flutter_action_bloc:shield]:       https://img.shields.io/pub/v/flutter_action_bloc.svg?label=flutter_action_bloc&style=flat-square
+[package:flutter_action_bloc:source]:       ./packages/flutter_action_bloc
+[package:flutter_action_bloc_hooks:pub]:    https://pub.dev/packages/flutter_action_bloc_hooks
+[package:flutter_action_bloc_hooks:shield]: https://img.shields.io/pub/v/flutter_action_bloc_hooks.svg?label=flutter_action_bloc_hooks&style=flat-square
+[package:flutter_action_bloc_hooks:source]: ./packages/flutter_action_bloc_hooks
+[package:flutter_bloc_hooks:pub]:           https://pub.dev/packages/flutter_bloc_hooks
+[package:flutter_bloc_hooks:shield]:        https://img.shields.io/pub/v/flutter_bloc_hooks.svg?label=flutter_bloc_hooks&style=flat-square
+[package:flutter_bloc_hooks:source]:        ./packages/flutter_bloc_hooks
+[package:melos:pub]:                        https://pub.dev/packages/melos
+[package:melos:shield]:                     https://img.shields.io/badge/maintained%20with-melos-f700ff.svg?style=flat-square
+[package:very_good_analysis:pub]:           https://pub.dev/packages/very_good_analysis
+[package:very_good_analysis:shield]:        https://img.shields.io/badge/style-very_good_analysis-B22C89.svg?style=flat-square

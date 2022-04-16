@@ -22,4 +22,3 @@ dev_dependencies:
   flutter_bloc: ^8.0.1
   flutter_test:
     sdk: flutter
-  very_good_analysis: ^2.4.0

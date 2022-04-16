@@ -16,4 +16,3 @@ dependencies:
 dev_dependencies:
   action_bloc_test: ^0.0.1
   dependency_validator: ^3.2.0
-  very_good_analysis: ^2.4.0

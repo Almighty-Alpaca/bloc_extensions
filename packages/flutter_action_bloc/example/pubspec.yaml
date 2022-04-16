@@ -1,0 +1,20 @@
+name: flutter_action_bloc_example
+version: 0.0.1
+publish_to: none
+
+environment:
+  flutter: ">=2.10.4"
+  sdk: '>=2.16.2 <3.0.0'
+
+dependencies:
+  action_bloc: 0.0.1
+  flutter_action_bloc: 0.0.1
+  flutter_bloc: ^8.0.1
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  dependency_validator: ^3.2.0
+
+flutter:
+  uses-material-design: true

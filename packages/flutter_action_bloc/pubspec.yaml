@@ -1,10 +1,10 @@
 name: flutter_action_bloc
 description: Widgets that make it easy to use action_bloc with Flutter.
 version: 0.0.2
-homepage: https://github.com/Almighty-Alpaca/bloc_extensions/packages/flutter_action_bloc
+homepage: https://github.com/Almighty-Alpaca/bloc_extensions/tree/master/packages/flutter_action_bloc
 repository: https://github.com/Almighty-Alpaca/bloc_extensions
 issue_tracker: https://github.com/Almighty-Alpaca/bloc_extensions/issues
-documentation: https://github.com/Almighty-Alpaca/bloc_extensions/packages/flutter_action_bloc/README.md
+documentation: https://github.com/Almighty-Alpaca/bloc_extensions/tree/master/packages/flutter_action_bloc/README.md
 
 environment:
   flutter: ">=2.10.4"

@@ -1,10 +1,10 @@
 name: action_bloc_test
 description: Package to make creating tests for action_bloc easy.
 version: 0.0.2
-homepage: https://github.com/Almighty-Alpaca/bloc_extensions/packages/action_bloc_test
+homepage: https://github.com/Almighty-Alpaca/bloc_extensions/tree/master/packages/action_bloc_test
 repository: https://github.com/Almighty-Alpaca/bloc_extensions
 issue_tracker: https://github.com/Almighty-Alpaca/bloc_extensions/issues
-documentation: https://github.com/Almighty-Alpaca/bloc_extensions/packages/action_bloc_test/README.md
+documentation: https://github.com/Almighty-Alpaca/bloc_extensions/tree/master/packages/action_bloc_test/README.md
 
 environment:
   sdk: ">=2.16.2 <3.0.0"

@@ -3,6 +3,52 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2022-04-19
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`action_bloc` - `v0.0.2`](#action_bloc---v002)
+ - [`action_bloc_test` - `v0.0.2`](#action_bloc_test---v002)
+ - [`flutter_action_bloc` - `v0.0.2`](#flutter_action_bloc---v002)
+ - [`flutter_action_bloc_hooks` - `v0.0.2`](#flutter_action_bloc_hooks---v002)
+ - [`flutter_bloc_hooks` - `v0.0.2`](#flutter_bloc_hooks---v002)
+
+---
+
+#### `action_bloc` - `v0.0.2`
+
+ - **FEAT**: Add example. ([142ef254](https://github.com/Almighty-Alpaca/bloc_extensions/commit/142ef2546b182f754080c4586e02cccf1ac5fb9d))
+ - **DOCS**: Update README.md. ([2efbfa8f](https://github.com/Almighty-Alpaca/bloc_extensions/commit/2efbfa8f4d3ec3c1327fa61909beb07ed4fd7842))
+
+#### `action_bloc_test` - `v0.0.2`
+
+ - **FEAT**: Add example. ([70ea7b13](https://github.com/Almighty-Alpaca/bloc_extensions/commit/70ea7b132ea64605d14e95176ec9aee9cc8a1d34))
+ - **DOCS**: Update README.md. ([b5cc24c7](https://github.com/Almighty-Alpaca/bloc_extensions/commit/b5cc24c7173e9d0ff481f1e6ec81fc560f52a64e))
+
+#### `flutter_action_bloc` - `v0.0.2`
+
+ - **FEAT**: Add example. ([4e0b5610](https://github.com/Almighty-Alpaca/bloc_extensions/commit/4e0b5610ee59b11b609da7d49fe2f4aac5ac6a75))
+ - **DOCS**: Update README.md. ([cdd700c8](https://github.com/Almighty-Alpaca/bloc_extensions/commit/cdd700c812b45e8b7113eb7666e9f722fe359ef3))
+
+#### `flutter_action_bloc_hooks` - `v0.0.2`
+
+ - **FEAT**: Add example. ([fe036568](https://github.com/Almighty-Alpaca/bloc_extensions/commit/fe036568fc6ff3dc8fafa76ff7820f81eb7aae00))
+ - **DOCS**: Update README.md. ([3893807c](https://github.com/Almighty-Alpaca/bloc_extensions/commit/3893807c86a939545c008381b4edaf0765c4c38f))
+
+#### `flutter_bloc_hooks` - `v0.0.2`
+
+ - **FEAT**: Add example. ([5591a203](https://github.com/Almighty-Alpaca/bloc_extensions/commit/5591a203549d2471c42ceb18607d89ec430b62ac))
+ - **DOCS**: Update README.md. ([363bda6b](https://github.com/Almighty-Alpaca/bloc_extensions/commit/363bda6bc313f4310e5484cde28263dc3c73fc93))
+
+
 ## 2022-04-13
 
 ### Changes

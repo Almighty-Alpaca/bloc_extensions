@@ -1,6 +1,6 @@
 name: flutter_bloc_hooks
 description: Flutter hooks for use with bloc.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/Almighty-Alpaca/bloc_extensions/packages/flutter_bloc_hooks
 repository: https://github.com/Almighty-Alpaca/bloc_extensions
 issue_tracker: https://github.com/Almighty-Alpaca/bloc_extensions/issues

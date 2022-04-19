@@ -1,3 +1,8 @@
+## 0.0.2
+
+ - **FEAT**: Add example. ([4e0b5610](https://github.com/Almighty-Alpaca/bloc_extensions/commit/4e0b5610ee59b11b609da7d49fe2f4aac5ac6a75))
+ - **DOCS**: Update README.md. ([cdd700c8](https://github.com/Almighty-Alpaca/bloc_extensions/commit/cdd700c812b45e8b7113eb7666e9f722fe359ef3))
+
 ## 0.0.1
 
  - **FIX**: Remove dependency overrides. ([0fb3e507](https://github.com/Almighty-Alpaca/bloc_extensions/commit/0fb3e50709f2702ed77b3f1a8a1347dca573dd5a))

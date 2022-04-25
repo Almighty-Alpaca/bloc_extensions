@@ -6,6 +6,6 @@ environment:
   sdk: '>=2.16.2 <3.0.0'
 
 dependencies:
-  action_bloc: 0.0.2
+  action_bloc: 0.0.2+1
 dev_dependencies:
   dependency_validator: ^3.2.0

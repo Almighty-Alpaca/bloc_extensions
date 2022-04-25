@@ -7,8 +7,8 @@ environment:
   sdk: '>=2.16.2 <3.0.0'
 
 dependencies:
-  action_bloc: 0.0.2
-  flutter_action_bloc_hooks: 0.0.2
+  action_bloc: 0.0.2+1
+  flutter_action_bloc_hooks: 0.0.2+1
   flutter_bloc: ^8.0.1
   flutter_hooks: ^0.18.3
   flutter:

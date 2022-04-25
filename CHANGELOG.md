@@ -3,6 +3,52 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2022-04-25
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`action_bloc` - `v0.0.2+1`](#action_bloc---v0021)
+ - [`action_bloc_test` - `v0.0.2+1`](#action_bloc_test---v0021)
+ - [`flutter_action_bloc` - `v0.0.2+1`](#flutter_action_bloc---v0021)
+ - [`flutter_action_bloc_hooks` - `v0.0.2+1`](#flutter_action_bloc_hooks---v0021)
+ - [`flutter_bloc_hooks` - `v0.0.2+1`](#flutter_bloc_hooks---v0021)
+
+---
+
+#### `action_bloc` - `v0.0.2+1`
+
+ - **DOCS**: Fix relative links not working correctly on pub.dev. ([1572815b](https://github.com/Almighty-Alpaca/bloc_extensions/commit/1572815bd4da1d3e2d82cfad166f256134c822f9))
+ - **DOCS**: Fix homepage and documentation links. ([4216411c](https://github.com/Almighty-Alpaca/bloc_extensions/commit/4216411cd03290fdde7f10fb1e5e72938667138b))
+
+#### `action_bloc_test` - `v0.0.2+1`
+
+ - **DOCS**: Fix relative links not working correctly on pub.dev. ([1572815b](https://github.com/Almighty-Alpaca/bloc_extensions/commit/1572815bd4da1d3e2d82cfad166f256134c822f9))
+ - **DOCS**: Fix homepage and documentation links. ([4216411c](https://github.com/Almighty-Alpaca/bloc_extensions/commit/4216411cd03290fdde7f10fb1e5e72938667138b))
+
+#### `flutter_action_bloc` - `v0.0.2+1`
+
+ - **DOCS**: Fix relative links not working correctly on pub.dev. ([1572815b](https://github.com/Almighty-Alpaca/bloc_extensions/commit/1572815bd4da1d3e2d82cfad166f256134c822f9))
+ - **DOCS**: Fix homepage and documentation links. ([4216411c](https://github.com/Almighty-Alpaca/bloc_extensions/commit/4216411cd03290fdde7f10fb1e5e72938667138b))
+
+#### `flutter_action_bloc_hooks` - `v0.0.2+1`
+
+ - **DOCS**: Fix relative links not working correctly on pub.dev. ([1572815b](https://github.com/Almighty-Alpaca/bloc_extensions/commit/1572815bd4da1d3e2d82cfad166f256134c822f9))
+ - **DOCS**: Fix homepage and documentation links. ([4216411c](https://github.com/Almighty-Alpaca/bloc_extensions/commit/4216411cd03290fdde7f10fb1e5e72938667138b))
+
+#### `flutter_bloc_hooks` - `v0.0.2+1`
+
+ - **DOCS**: Fix relative links not working correctly on pub.dev. ([1572815b](https://github.com/Almighty-Alpaca/bloc_extensions/commit/1572815bd4da1d3e2d82cfad166f256134c822f9))
+ - **DOCS**: Fix homepage and documentation links. ([4216411c](https://github.com/Almighty-Alpaca/bloc_extensions/commit/4216411cd03290fdde7f10fb1e5e72938667138b))
+
+
 ## 2022-04-19
 
 ### Changes

@@ -20,7 +20,7 @@ void main() {
     expectActions: () => <int>[],
   );
 
-  final times = 30;
+  const times = 30;
 
   actionBlocTest<TestCubit, int, int>(
     'test emit in order',

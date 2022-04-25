@@ -49,8 +49,8 @@ class CounterPage extends StatelessWidget {
       body: ActionBlocListener<CounterCubit, String>(
         listener: (context, action) {
           final snackBar = SnackBar(
-            content: Text('$action'),
-            duration: Duration(seconds: 2),
+            content: Text(action),
+            duration: const Duration(seconds: 2),
             behavior: SnackBarBehavior.floating,
           );
 

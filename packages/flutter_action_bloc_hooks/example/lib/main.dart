@@ -46,8 +46,8 @@ class CounterPage extends HookWidget {
     useBlocActionListener<CounterCubit, String>(
       (context, action) {
         final snackBar = SnackBar(
-          content: Text('$action'),
-          duration: Duration(seconds: 2),
+          content: Text(action),
+          duration: const Duration(seconds: 2),
           behavior: SnackBarBehavior.floating,
         );
 

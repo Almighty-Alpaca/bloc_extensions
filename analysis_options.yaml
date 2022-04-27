@@ -12,4 +12,5 @@ analyzer:
     strict-inference: true
 
   exclude:
-    - "packages/*"
+    - "packages/**"
+    - "example/**"

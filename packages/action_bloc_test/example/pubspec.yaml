@@ -7,5 +7,6 @@ environment:
 
 dependencies:
   action_bloc: 0.0.2+1
+  action_bloc_test: 0.0.2+1
 dev_dependencies:
   dependency_validator: ^3.2.0
